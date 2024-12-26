@@ -10,6 +10,7 @@ public class ModerationState : State
     }
 
     public override string ToString() => "Moderated";
+    
     public void Publish()
     {
         if (_document.UserRole == UserRoles.Admin)
