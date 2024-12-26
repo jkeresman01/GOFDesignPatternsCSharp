@@ -10,6 +10,7 @@ public class DraftState : State
     }
     
     public override string ToString() => "Draft";
+    
     public void Publish()
     {
         _document.State = new ModerationState(_document);
