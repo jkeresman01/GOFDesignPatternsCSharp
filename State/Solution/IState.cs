@@ -1,6 +1,6 @@
 namespace State.Solution;
 
-public interface State
+public interface IState
 {
     void Publish();
 }

@@ -1,6 +1,6 @@
 namespace State.Solution;
 
-public class ModerationState : State
+public class ModerationState : IState
 {
     private Document _document;
 

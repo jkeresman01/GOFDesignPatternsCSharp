@@ -2,7 +2,7 @@ namespace State.Solution;
 
 public class Document
 {
-    public State State { get; set; }
+    public IState State { get; set; }
     public UserRoles UserRole { get; set; }
 
     public Document(UserRoles userRole)

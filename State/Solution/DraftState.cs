@@ -1,6 +1,6 @@
 namespace State.Solution;
 
-public class DraftState : State
+public class DraftState : IState
 {
     private Document _document;
 
