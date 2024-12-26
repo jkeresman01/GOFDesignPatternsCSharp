@@ -1,6 +1,6 @@
 namespace State.Solution;
 
-public class PublishedState : State
+public class PublishedState : IState
 {
     private Document _document;
     
