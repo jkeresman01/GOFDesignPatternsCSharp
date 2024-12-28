@@ -12,4 +12,5 @@ Console.WriteLine();
 
 videoStorage.Compressor = new CompressorMp4();
 videoStorage.Overlay = new OverlayBlur();
+
 videoStorage.Store("/videos/some-video");

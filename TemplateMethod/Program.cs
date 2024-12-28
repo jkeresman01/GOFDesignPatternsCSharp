@@ -1,3 +1,8 @@
 ﻿//GOF Template method design pattern
 
-Console.WriteLine("Hello, World!");
+var bevarageMaker = new BevarageMaker(new Tea());
+bevarageMaker.Make();
+
+bevarageMaker.Bevarage = new Coffee();
+bevarageMaker.Make();
+

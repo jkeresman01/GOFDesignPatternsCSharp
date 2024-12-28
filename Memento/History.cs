@@ -15,7 +15,7 @@ public class History
 
     public override string ToString()
     {
-        StringBuilder sb = new StringBuilder("\r\nHistory: Here's the list of mementos:\r\n");
+        var sb = new StringBuilder("\r\nHistory: Here's the list of mementos:\r\n");
         _states.ForEach(state => sb.Append($"{state}\r\n"));
         return sb.ToString();
     }
