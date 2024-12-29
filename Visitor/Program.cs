@@ -1,6 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-using Visitor.Solution;
+﻿using Visitor.Solution;
 
 var restaurant = new ResturantClient("Restaurant", "restaurant@gmail.com");
 var retail = new RetailClient("Retail", "retail@gmail.com");
