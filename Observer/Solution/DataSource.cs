@@ -2,7 +2,12 @@ namespace Observer.Solution;
 
 public class DataSource : Subject
 {
-    private List<int> _data = new List<int>();
+    private List<int> _data;
+
+    public DataSource()
+    {
+        _data = new List<int>();
+    }
 
     public List<int> Data
     {
