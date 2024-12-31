@@ -6,8 +6,5 @@ public class LawClient : Client
     {
     }
 
-    public override void Accept(Visitor visitor)
-    {
-        visitor.VisitLaw(this);
-    }
+    public override void Accept(Visitor visitor) => visitor.VisitLaw(this);
 }

@@ -6,8 +6,5 @@ public class RetailClient : Client
     {
     }
 
-    public override void Accept(Visitor visitor)
-    {
-        visitor.VisitRetail(this);
-    }
+    public override void Accept(Visitor visitor) => visitor.VisitRetail(this);
 }

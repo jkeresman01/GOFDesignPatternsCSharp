@@ -6,8 +6,5 @@ public class ResturantClient : Client
     {
     }
 
-    public override void Accept(Visitor visitor)
-    {
-        visitor.VisitRestaurant(this);
-    }
+    public override void Accept(Visitor visitor) => visitor.VisitRestaurant(this);
 }
