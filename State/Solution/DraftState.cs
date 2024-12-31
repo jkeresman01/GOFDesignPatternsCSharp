@@ -11,8 +11,5 @@ public class DraftState : IState
     
     public override string ToString() => "Draft";
     
-    public void Publish()
-    {
-        _document.State = new ModerationState(_document);
-    }
+    public void Publish() => _document.State = new ModerationState(_document);
 }

@@ -12,8 +12,5 @@ public class Document
     }
     public override string ToString() => $"Document => State: {State}, UserRole: {UserRole}";
     
-    public void Publish()
-    {
-        State.Publish();
-    }
+    public void Publish() => State.Publish();
 }
