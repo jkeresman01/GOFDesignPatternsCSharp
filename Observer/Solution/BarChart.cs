@@ -9,8 +9,5 @@ public class BarChart : IObserver
         _dataSource = dataSource;
     }
     
-    public void Update()
-    {
-        Console.WriteLine($"Updating bar chart {_dataSource.Data.Sum()}");
-    }
+    public void Update() => Console.WriteLine($"Updating bar chart {_dataSource.Data.Sum()}");
 }
