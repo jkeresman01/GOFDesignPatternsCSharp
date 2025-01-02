@@ -9,8 +9,5 @@ public class DimCommand : ICommand
         _light = light;
     }
     
-    public void Execute()
-    {
-        _light.Dim();
-    }
+    public void Execute() => _light.Dim();
 }

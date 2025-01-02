@@ -9,8 +9,5 @@ public class TurnOnCommand : ICommand
         _light = light;
     }
     
-    public void Execute()
-    {
-        _light.TurnOn();
-    }
+    public void Execute() => _light.TurnOn();
 }

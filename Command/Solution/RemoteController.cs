@@ -9,8 +9,5 @@ public class RemoteController
         Command = command;
     }
 
-    public void PressButton()
-    {
-        Command.Execute();
-    }
+    public void PressButton() => Command.Execute();
 }

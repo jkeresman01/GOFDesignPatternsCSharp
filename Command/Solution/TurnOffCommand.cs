@@ -8,8 +8,5 @@ public class TurnOffCommand : ICommand
     {
         _light = light;
     }
-    public void Execute()
-    {
-        _light.TurnOff();
-    }
+    public void Execute() => _light.TurnOff();
 }
