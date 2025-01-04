@@ -4,10 +4,7 @@ public class CropService
 {
     private CropIconFactory _iconFactory;
 
-    public CropService(CropIconFactory iconFactory)
-    {
-        _iconFactory = iconFactory;
-    }
+    public CropService(CropIconFactory iconFactory) => _iconFactory = iconFactory;
 
     public List<Crop> GetCrops()
     {

@@ -7,10 +7,7 @@ public class YouTubeVideoProxy : IVideo
     private string _videoId;
     private YouTubeVideo _youTubeVideo;
 
-    public YouTubeVideoProxy(string videoId)
-    {
-        _videoId = videoId;
-    }
+    public YouTubeVideoProxy(string videoId) => _videoId = videoId;
     
     public void Render()
     {

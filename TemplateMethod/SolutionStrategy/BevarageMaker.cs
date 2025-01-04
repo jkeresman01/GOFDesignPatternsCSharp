@@ -4,10 +4,7 @@ public class BevarageMaker
 {
     public IBevarage Bevarage() { get; set};
 
-    public BevarageMaker(IBevarage bevarage)
-    {
-        _bevarage = bevarage;
-    }
+    public BevarageMaker(IBevarage bevarage) => _bevarage = bevarage;
 
     public void Make()
     {

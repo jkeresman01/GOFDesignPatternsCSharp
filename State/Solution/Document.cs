@@ -11,6 +11,5 @@ public class Document
         State = new DraftState(this);
     }
     public override string ToString() => $"Document => State: {State}, UserRole: {UserRole}";
-    
     public void Publish() => State.Publish();
 }

@@ -4,12 +4,7 @@ namespace Flyweigth.Solution;
 
 public class CropIconFactory
 {
-    private Dictionary<CropType, CropIcon> _icons;
-
-    public CropIconFactory()
-    {
-        _icons = new Dictionary<CropType, CropIcon>();
-    }
+    private Dictionary<CropType, CropIcon> _icons = new Dictionary<CropType, CropIcon>();
 
     public CropIcon GetCropIcon(CropType cropType)
     {

@@ -4,13 +4,8 @@ namespace Iterator;
 
 public class ShopingList
 {
-    private List<string> _items;
-
-    public ShopingList()
-    {
-        _items = new List<string>();
-    }
-
+    private List<string> _items = new List<string>();
+    
     public override string ToString()
     {
         StringBuilder sb = new StringBuilder("Items: \r\n");
@@ -28,9 +23,4 @@ public class ShopingList
     }
 
     public List<string> GetItems() => _items;
-
-    public object CreateIterator()
-    {
-        throw new NotImplementedException();
-    }
 }
