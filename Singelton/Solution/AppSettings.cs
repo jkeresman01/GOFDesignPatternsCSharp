@@ -25,8 +25,5 @@ public class AppSettings
         return appSetting;
     }
 
-    public void Set(string key, string value)
-    {
-        _settings[key] = value;
-    }
+    public void Set(string key, string value) => _settings[key] = value;
 }
