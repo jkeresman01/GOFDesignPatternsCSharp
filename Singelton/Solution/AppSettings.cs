@@ -3,9 +3,8 @@ namespace Singelton.Solution;
 public class AppSettings
 {
     private static AppSettings _instance; 
-   
     private Dictionary<string, string> _settings = new Dictionary<string, string>();
-
+    
     public static AppSettings GetInstance()
     {
         if (_instance == null)

@@ -7,7 +7,6 @@ public class Coffee : IBevarage
         BoilWater();
         AddCondiments();
     }
-    
 
     private void Brew() => Console.WriteLine("Brew coffee for 5 min!");
 
