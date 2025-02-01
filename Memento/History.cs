@@ -4,7 +4,7 @@ namespace Memento.obj;
 
 public class History
 {
-    private List<EditorState> _states;
+    private IList<EditorState> _states;
     private Editor _editor;
 
     public History(Editor editor)

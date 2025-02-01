@@ -2,7 +2,7 @@ namespace Flyweigth;
 
 public class CropService
 {
-    public List<Crop> GetCrops()
+    public IList<Crop> GetCrops()
     {
         var crops = new List<Crop>();
         

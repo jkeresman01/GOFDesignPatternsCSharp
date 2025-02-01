@@ -4,7 +4,7 @@ namespace Iterator;
 
 public class ShopingList
 {
-    private List<string> _items = new List<string>();
+    private IList<string> _items = new List<string>();
     
     public override string ToString()
     {

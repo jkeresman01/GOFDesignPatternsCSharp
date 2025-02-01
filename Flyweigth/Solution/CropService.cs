@@ -6,7 +6,7 @@ public class CropService
 
     public CropService(CropIconFactory iconFactory) => _iconFactory = iconFactory;
 
-    public List<Crop> GetCrops()
+    public IList<Crop> GetCrops()
     {
         var crops = new List<Crop>();
 

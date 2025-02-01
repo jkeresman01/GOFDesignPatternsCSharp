@@ -2,12 +2,7 @@ namespace Singelton.Problem;
 
 public class AppSettings
 {
-    private Dictionary<string, object> _settings;
-
-    public AppSettings()
-    {
-        _settings = new Dictionary<string, object>();
-    }
+    private IDictionary<string, object> _settings = new Dictionary<string, object>();
     
     public object Get(string key)
     {

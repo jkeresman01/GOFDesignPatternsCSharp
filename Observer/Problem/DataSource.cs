@@ -2,10 +2,10 @@ namespace Observer;
 
 public class DataSource
 {
-    private List<int> _values = new List<int>();
-    public List<Object> Observers { get; set; }  = new List<Object>();
+    private IList<int> _values = new List<int>();
+    public IList<Object> Observers { get; set; }  = new List<Object>();
     
-    public List<int> Values
+    public IList<int> Values
     {
         get => _values;
         set

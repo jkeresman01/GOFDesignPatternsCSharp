@@ -2,7 +2,7 @@ namespace Iterator.Solution;
 
 public class ShoppingList
 {
-    public List<string> Items { get; set; }
+    public IList<string> Items { get; set; }
 
     public ShoppingList()
     {
