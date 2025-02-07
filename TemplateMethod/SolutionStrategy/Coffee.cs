@@ -8,6 +8,8 @@ public class Coffee : IBevarage
         AddCondiments();
     }
 
+    override string ToString() => $"Beverage: {GetType().Name}";
+    
     private void Brew() => Console.WriteLine("Brew coffee for 5 min!");
 
     private void AddCondiments()

@@ -9,6 +9,8 @@ public class Tea
         Brew();
         AddCondiments();
     }
+    
+    override string ToString() => $"Beverage: {GetType().Name}";
 
     private void BoilWater() => Console.WriteLine("Boiling water");
     

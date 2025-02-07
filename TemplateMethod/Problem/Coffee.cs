@@ -10,6 +10,8 @@ public class Coffee
         AddCondiments();
     }
 
+    override string ToString() => $"Beverage: {GetType().Name}";
+    
     private void BoilWater() => Console.WriteLine("Boiling water");
     
     private void PourWaterInCup() => Console.WriteLine("Pouring water in cup!");
