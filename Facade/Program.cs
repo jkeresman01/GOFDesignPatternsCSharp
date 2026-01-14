@@ -1,14 +1,3 @@
-// =============================================
-// Problem - Without Facade Pattern
-// =============================================
-// The client has to know about and interact with all subsystems directly.
-// This causes:
-// - Tight coupling between client and subsystems
-// - Client needs to know the correct order of operations
-// - Client needs to handle all error cases manually
-// - If subsystem APIs change, client code must change
-// - Code duplication if multiple clients need same workflow
-
 // using Facade.Problem;
 //
 // var paymentService = new PaymentService();
@@ -49,18 +38,6 @@
 // {
 //     Console.WriteLine("No can do for order, we are truly sorry");
 // }
-
-
-// =============================================
-// Solution - With Facade Pattern
-// =============================================
-// The client only needs to interact with the facade
-// instead of dealing with multiple complex subsystems.
-// Benefits:
-// - Simple interface for complex subsystem
-// - Client is decoupled from subsystem details
-// - Single point of entry for the workflow
-// - Easy to modify subsystem without affecting clients
 
 using Facade.Solution;
 
