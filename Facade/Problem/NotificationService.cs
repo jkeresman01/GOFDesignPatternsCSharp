@@ -1,4 +1,4 @@
-namespace Facade;
+namespace Facade.Problem;
 
 public class NotificationService
 {

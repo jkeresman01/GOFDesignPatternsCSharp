@@ -1,4 +1,4 @@
-namespace Facade;
+namespace Facade.Solution;
 
 public class InventoryService
 {
